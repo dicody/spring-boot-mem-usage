@@ -1,6 +1,11 @@
-# Spring Boot templates with Dockerfiles for memory experiments
+# Spring Boot projects with Dockerfiles
 
-This project provides different Spring Boot project configurations for min memory experiments. 
+The idea behind this project is to find out min memory requirements for Dockerized Spring Boot applications.
+
+## TBD
+
+- non-functional requirements (covered by automated suite)
+- reduce boilerplate in templates
 
 ## Prerequisite
 1. checkout repository
@@ -20,10 +25,20 @@ This project provides different Spring Boot project configurations for min memor
     docker run -it --rm -p 8080:8080 dicody/spring-boot-web
     ```
 
-## Spring Boot Web
+## Theory
 
+### [Docker memory limits](https://docs.docker.com/config/containers/resource_constraints/#memory)
 
+TBD
 
-## Spring Boot Webflux
+### Java versions
 
+TBD
 
+## Experiments
+
+TBD
+
+## Useful links:
+ - [All about Docker](https://github.com/veggiemonk/awesome-docker)
+ - [Tweaks to increase Sprint Boot start up time](https://spring.io/guides/topicals/spring-boot-docker/#:~:text=the%20layering%20feature.-,Tweaks,-If%20you%20want)
